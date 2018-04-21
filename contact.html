@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contact form</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+	<div class="contact-title">
+		<h1>Tell me your secrets here</h1>
+		<h2>Or simply say hello.</h2>
+	</div>
+	<div class="contact-form">
+		<form id="contact-form" method="post" action="contact.php">
+			<input name="Name" type="text" class="form-control" placeholder="Your Name" required>
+			<br>
+			<input name="Email" type="email" class="form-control" placeholder="Your Email" required>
+			<br>
+			<textarea name="Message" class="form-control" placeholder="Message" row="4" required></textarea>
+			<br>
+			<input type="submit" class="contact-form submit" value="SEND MESSAGE">
+		</form>
+	</div>
+</body>
+</html>
